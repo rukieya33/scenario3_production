@@ -122,7 +122,7 @@ console.log(data)
     
 if (document.getElementById('0').checked == true)
 {
-     fetch('http://127.0.0.1:5000/manage_investment', { method: "POST", headers:{'Content-Type': 'application/json'},
+     fetch('https://famp-x-personal8.onrender.com/manage_investment', { method: "POST", headers:{'Content-Type': 'application/json'},
  body:JSON.stringify({"currentAssets" : this.currentassets, 
  "age": this.age, "savingsperyear" : this.savingsperyear,
  "marginaltaxrate" : this.marginaltaxrate, "incomerequired" : this.incomerequired, 
@@ -147,7 +147,7 @@ if (document.getElementById('0').checked == true)
 }
 if (document.getElementById('1').checked == true)
 {
-     fetch('http://127.0.0.1:5000/manage_investment', { method: "POST", headers:{'Content-Type': 'application/json'},
+     fetch('https://famp-x-personal8.onrender.com/manage_investment', { method: "POST", headers:{'Content-Type': 'application/json'},
  body:JSON.stringify({"currentAssets" : this.currentassets, 
  "age": this.age, "savingsperyear" : this.savingsperyear,
  "marginaltaxrate" : this.marginaltaxrate, "incomerequired" : this.incomerequired, 
@@ -171,7 +171,7 @@ if (document.getElementById('1').checked == true)
 }
 if (document.getElementById('2').checked == true)
 {
-     fetch('http://127.0.0.1:5000/manage_investment', { method: "POST", headers:{'Content-Type': 'application/json'},
+     fetch('https://famp-x-personal8.onrender.com/manage_investment', { method: "POST", headers:{'Content-Type': 'application/json'},
  body:JSON.stringify({"currentAssets" : this.currentassets, 
  "age": this.age, "savingsperyear" : this.savingsperyear,
  "marginaltaxrate" : this.marginaltaxrate, "incomerequired" : this.incomerequired, 
