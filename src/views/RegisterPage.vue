@@ -59,7 +59,7 @@
            sessionStorage.setItem('persons',  ' ') 
  
        
-   fetch('http://127.0.0.1:5000/registration', { method: "POST", body:formsData})
+   fetch('https://famp-x-personal8.onrender.com/registration', { method: "POST", body:formsData})
    .then(response => {
      
     return  response.text()
