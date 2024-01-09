@@ -38,7 +38,7 @@
         options: null,
         showgraph: ' ',
         datas: null,
-        graph:  fetch('http://127.0.0.1:5000/visual-overview', { method: "GET", headers:{'Content-Type': 'application/json'}})
+        graph:  fetch('https://famp-x-personal8.onrender.com/visual-overview', { method: "GET", headers:{'Content-Type': 'application/json'}})
   .then(response => {
    return response.text()
   })
