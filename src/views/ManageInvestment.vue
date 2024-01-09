@@ -98,7 +98,7 @@
    
   selectStock(){
      
-    fetch('http://127.0.0.1:5000/manage_investment', { method: "GET", headers:{'Content-Type': 'application/json'},
+    fetch('https://famp-x-personal8.onrender.com/manage_investment', { method: "GET", headers:{'Content-Type': 'application/json'},
 })
 .then(response => {
  return  response.json()
