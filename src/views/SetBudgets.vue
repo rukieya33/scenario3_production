@@ -136,7 +136,7 @@ this.expenseNames.push({'income': this.income, 'budget':this.budget, 'expensetyp
 'expensemonth' : this.expensemonth })
 let myarray = []
 this.nameOfCost = myarray.push("cost"+String(this.expenseNames.length))
-fetch('http://127.0.0.1:5000/setBudget', { method: "POST", headers:{'Content-Type': 'application/json'},
+fetch('https://famp-x-personal8.onrender.com/setBudget', { method: "POST", headers:{'Content-Type': 'application/json'},
 body:JSON.stringify({"data" : this.expenseNames})})
 .then(response => {
  return  response.json()
