@@ -1,8 +1,5 @@
 Flask
 flask_cors
 waitress
-<<<<<<< HEAD
 rethinkdb
-=======
-rethinkdb
->>>>>>> 76ff109ff4a830abb44e6e77f693833067bc5cb5
+
