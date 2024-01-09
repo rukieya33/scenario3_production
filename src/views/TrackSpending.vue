@@ -108,7 +108,7 @@
         (this.cost3 - this.$props.ids["datas"][2]["budget"]) +
         (this.cost4 - this.$props.ids["datas"][3]["budget"])
           this.cost = this.cost2 + this.cost1 + this.cost3 + this.cost4  + this.cost5 + this.cost6 + this.cost7 + this.cost8 + this.cost9 + this.cost10 
-         fetch('http://127.0.0.1:5000/track-spending', { method: "POST", headers:{'Content-Type': 'application/json'},
+         fetch('https://famp-x-personal8.onrender.com/track-spending', { method: "POST", headers:{'Content-Type': 'application/json'},
   body:JSON.stringify({"cost" : this.cost2 + this.cost1 + this.cost3 + this.cost4  + this.cost5 + this.cost6 + this.cost7 + this.cost8 + this.cost9 + this.cost10 , "totalbudget" : this.$props.totals, "moneysaved" : moneysaved, "totalincome": this.$props.incomes,"expensemonth" :this.$props.ids["datas"][0]["expensemonth"]
  })})
   .then(response => {
