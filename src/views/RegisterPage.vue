@@ -94,7 +94,7 @@
   sessionStorage.setItem('persons', 'Welcome, ' + formsData.get('firstname'))
  
  
-       this.$router.push('/myprofile')
+       this.$router.push('/')
    
        
      }
