@@ -38,7 +38,7 @@
 </template>
   
   <script>
-  import Navbar from '../views/Navbar.vue'
+  import Navbar from '../views/NavBar.vue'
   export default {
     name: 'HomePage',
     components: {Navbar},
