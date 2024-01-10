@@ -1,5 +1,7 @@
 <template>
-
+  <header>
+ <NavBar user="current"></NavBar>
+</header>
   <div id=" home" @click="showSlides">Welcome to Homepage</div>
 
 <p>Change image every 2 seconds:</p>
