@@ -1,7 +1,7 @@
 <template>
 
 <main>
-  <router-view/>
+
 </main>
   <footer>
      &copy;
