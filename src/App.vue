@@ -1,8 +1,7 @@
 <template>
-
-
+<main>
 <HomePage/>
-
+</main>
   <footer>
      &copy;
   </footer>
