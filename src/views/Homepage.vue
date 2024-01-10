@@ -33,6 +33,8 @@
   <span class="dot"></span> 
 </div>
 {{ show }}
+
+  <router-view/>
 </template>
   
   <script>
