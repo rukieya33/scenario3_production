@@ -1,7 +1,7 @@
 <template>
 
 <main>
-<Homepage/>
+<HomePage/>
 </main>
   <footer>
      &copy;
@@ -9,10 +9,10 @@
  
 </template>
 <script>
-import Homepage from '../views/Homepage.vue'
+import HomePage from '../views/Homepage.vue'
 
 export default {
-    components:{Homepage},
+    components:{HomePage},
     data() {
         return {
             person: " ",
