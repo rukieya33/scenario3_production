@@ -11,14 +11,15 @@
 import HomePage from '../views/Homepage.vue'
 
 export default {
-    components:{HomePage},
+   
     data() {
         return {
             person: " ",
             username: " "
         };
     
-    }
+    },
+      components:{HomePage}
 }
 
 </script>
