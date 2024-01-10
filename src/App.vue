@@ -1,5 +1,5 @@
 <template>
-<Homepage> </Hompage>
+<Homepage/>
 <main>
   <router-view/>
 </main>
