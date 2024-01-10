@@ -1,5 +1,5 @@
 <template>
-<Homepage/>
+
 <main>
   <router-view/>
 </main>
@@ -9,7 +9,6 @@
  
 </template>
 <script>
-import Homepage from './views/Homepage.vue';
 
 
 export default {
@@ -20,8 +19,7 @@ export default {
             username: " "
         };
     
-    },
-    components: { Homepage }
+    }
 }
 
 </script>
