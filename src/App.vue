@@ -1,5 +1,7 @@
 <template>
-
+  <header>
+ <NavBar user="current"></NavBar>
+</header>
 <main>
 
 </main>
