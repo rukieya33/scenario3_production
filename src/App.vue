@@ -1,7 +1,5 @@
 <template>
-  <header>
- <NavBar user="current"></NavBar>
-</header>
+<Homepage> </Hompage>
 <main>
   <router-view/>
 </main>
@@ -11,7 +9,7 @@
  
 </template>
 <script>
-import NavBar from './views/NavBar.vue';
+import Homepage from './views/Homepage.vue';
 
 
 export default {
@@ -23,7 +21,7 @@ export default {
         };
     
     },
-    components: { NavBar }
+    components: { Homepage }
 }
 
 </script>
