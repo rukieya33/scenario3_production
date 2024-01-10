@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import DashBoardPage from '../views/DashBoardPage.vue'
-import Homepage from '../views/Homepage.vue'
+import App from './App.vue'
 import RegisterPage from '../views/RegisterPage.vue'
 import ProfilePage from '../views/ProfilePage.vue'
 import SetBudget from '../views/SetBudgets.vue'
@@ -13,7 +13,7 @@ import FinancialStatment from '../components/FinancialStatementAnalysis.vue'
 
 
 const  routes =  [
-  { path: '/', component: Homepage , props:true},
+  { path: '/', component: App , props:true},
   { path: '/monitor-investment', component: MonitorInvestment,  props:true},
   { path: '/financial-statement', component: FinancialStatment,  props:true},
   { path: '/dashboard',  component: DashBoardPage ,props:true  },
