@@ -38,10 +38,10 @@
 </template>
   
   <script>
-  import Navbar from '../views/NavBar.vue'
+  import NavBar from '../views/NavBar.vue'
   export default {
     name: 'HomePage',
-    components: {Navbar},
+    components: {NavBar},
     data(){
       return {
         slideIndex : 0,
