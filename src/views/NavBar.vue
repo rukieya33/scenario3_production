@@ -8,7 +8,7 @@
    
    
   </nav>
-
+   <router-view/>
    </template>
    
    <script>
