@@ -1,7 +1,7 @@
 <template>
-<main>
+
 <HomePage></HomePage>
-</main>
+
   <footer>
      &copy;
   </footer>
