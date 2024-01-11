@@ -1,6 +1,6 @@
 <template>
 
-<HomePage></HomePage>
+<NavBar></NavBar>
 
   <footer>
      &copy;
@@ -8,7 +8,7 @@
    <router-view/>
 </template>
 <script>
-import HomePage from './views/HomePage.vue'
+import NavBar from './views/NavBar.vue'
 
 export default {
 
@@ -19,7 +19,7 @@ export default {
         };
     
     },
-      components:{HomePage}
+      components:{NavBar}
 }
 
 </script>
