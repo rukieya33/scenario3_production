@@ -5,7 +5,7 @@
   <footer>
      &copy;
   </footer>
-   <router-view/>
+
 </template>
 <script>
 import NavBar from './views/NavBar.vue'
