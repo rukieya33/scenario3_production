@@ -53,7 +53,7 @@ def register():
 @cross_origin(origin='localhost',headers=['Content- Type','Authorization'])
 def setBudget():
 
-    conn = r.connect(host='127.0.0.1',
+    conn = r.connect(host='0.0.0.0',
                  port=28015,
                  db='personal_finance_management_db')
     
