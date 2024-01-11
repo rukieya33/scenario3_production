@@ -94,7 +94,7 @@
   sessionStorage.setItem('persons', 'Welcome, ' + formsData.get('firstname'))
  
  
-       location.replace('/myProfile')
+       location.replace('/myprofile')
    
        
      }
