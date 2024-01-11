@@ -19,7 +19,7 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 
 # enable CORS
-CORS(app, resources={r"/*": {"origins": "https://scenario3-production-rt2l.vercel.app/"}})
+CORS(app, resources={r"/*": {"origins": "https://scenario3-production-1yoa.vercel.app/"}})
 
 myarray = []
 
