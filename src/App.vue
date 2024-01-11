@@ -11,7 +11,7 @@
 import HomePage from '../views/HomePage.vue'
 
 export default {
-    name: App,
+    name: 'App',
     data() {
         return {
             person: " ",
