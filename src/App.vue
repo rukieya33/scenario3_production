@@ -5,7 +5,7 @@
   <footer>
      &copy;
   </footer>
- 
+   <router-view/>
 </template>
 <script>
 import HomePage from './views/HomePage.vue'
