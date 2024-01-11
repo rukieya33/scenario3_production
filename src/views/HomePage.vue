@@ -1,7 +1,5 @@
 <template>
-  <header>
- <NavBar user="current"></NavBar>
-</header>
+
   <div id=" home" @click="showSlides">Welcome to Homepage</div>
 
 <p>Change image every 2 seconds:</p>
@@ -38,10 +36,9 @@
 </template>
   
   <script>
-  import NavBar from '../views/NavBar.vue'
+
   export default {
     name: 'HomePage',
-    components: {NavBar},
     data(){
       return {
         slideIndex : 0,
