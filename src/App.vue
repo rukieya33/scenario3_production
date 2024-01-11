@@ -8,7 +8,7 @@
  
 </template>
 <script>
-import HomePage from '@views/HomPage.vue'
+import HomePage from '@views/HomePage.vue'
 
 export default {
     name: 'App',
