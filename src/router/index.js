@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import DashBoardPage from '../views/DashBoardPage.vue'
-import HomePage from '..views/HomePage.vue'
+import HomePage from './views/HomePage.vue'
 import RegisterPage from '../views/RegisterPage.vue'
 import ProfilePage from '../views/ProfilePage.vue'
 import SetBudget from '../views/SetBudgets.vue'
