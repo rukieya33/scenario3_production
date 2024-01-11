@@ -34,7 +34,7 @@
 </div>
 {{ show }}
 
-  <router-view/>
+
 </template>
   
   <script>
