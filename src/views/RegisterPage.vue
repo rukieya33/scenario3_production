@@ -95,7 +95,7 @@
  
  
        this.$router.push('/myprofile')
-   
+       location.replace('/myprofile')
        
      }
      else{
