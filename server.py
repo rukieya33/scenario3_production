@@ -52,7 +52,7 @@ def register():
 @app.route('/setBudget', methods=['POST','GET'])
 @cross_origin(origin='localhost',headers=['Content- Type','Authorization'])
 def setBudget():
-  try:
+
     conn = r.connect(host='127.0.0.1',
                  port=28015,
                  db='personal_finance_management_db')
@@ -67,9 +67,7 @@ def setBudget():
     
 
     return jsonify({'id' : ids})
-  except:
-
-    return jsonify({'error' : 'error setting Budget'})
+ 
     
 
 
