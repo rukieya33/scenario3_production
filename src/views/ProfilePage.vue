@@ -3,7 +3,7 @@
  
 
 <div>Hello profile !</div>
-    <router-view/>
+  
 </template>
     
     <script>
