@@ -1,6 +1,6 @@
 <template>
 <main>
-<HomePage></Homepage>
+<HomePage></HomePage>
 </main>
   <footer>
      &copy;
@@ -8,7 +8,7 @@
  
 </template>
 <script>
-import HomePage from '../views/Homepage.vue'
+import HomePage from '../views/HomePage.vue'
 
 export default {
    
