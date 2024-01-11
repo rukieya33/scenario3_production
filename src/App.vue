@@ -1,6 +1,6 @@
 <template>
 <main>
-<HomePage/>
+<HomePage></Homepage>
 </main>
   <footer>
      &copy;
